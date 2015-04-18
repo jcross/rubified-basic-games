@@ -5,9 +5,9 @@
 # Ruby translation by James Cross (http://github.com/jcross/)
 
 module AceyDucey
-	CARD_FACE = { 2 => "2", 3 => "3", 4 => "4", 5 => "5", 6 => "6", 7 => "7", 8 => "8",
-								9 => "9", 10 => "10", 11 => "JACK", 12 => "QUEEN", 13 => "KING",
-								14 => "ACE" }
+	CARD_FACE = { 2 => "2", 3 => "3", 4 => "4", 5 => "5", 6 => "6", 7 => "7", 
+								8 => "8", 9 => "9", 10 => "10", 11 => "JACK", 12 => "QUEEN",
+								13 => "KING", 14 => "ACE" }
 
 	def self.cputs(text, term_width = 38)
 		# Centers text on the screen based on the optional term_width.

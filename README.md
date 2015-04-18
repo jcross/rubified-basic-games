@@ -1,4 +1,4 @@
-# rubified_basic_games
+# Rubified Basic Games
 A collection of classic BASIC games translated into Ruby.
 
 ## Dependencies

@@ -9,18 +9,11 @@ module AceyDucey
                 8 => "8", 9 => "9", 10 => "10", 11 => "JACK", 12 => "QUEEN",
                 13 => "KING", 14 => "ACE" }
 
-  def self.cputs(text, term_width = 38)
-    # Centers text on the screen based on the optional term_width.
-    # 38 seems to be the terminal width targeted by these BASIC games.
-    center = term_width - (text.length / 2)
-    puts "#{' ' * center}#{text}"
-  end
-
   def self.display_intro
-    cputs "ACEY DUCEY CARD GAME"
-    cputs "CREATIVE COMPUTING  MORRISTOWN, NEW JERSEY"
-    cputs "TRANSLATED TO RUBY"
-    cputs "BY JAMES CROSS (http://github.com/jcross/)\n\n\n"
+    puts "ACEY DUCEY CARD GAME".center(80)
+    puts "CREATIVE COMPUTING  MORRISTOWN, NEW JERSEY".center(80)
+    puts "TRANSLATED TO RUBY".center(80)
+    puts "BY JAMES CROSS (http://github.com/jcross/)\n\n\n".center(80)
 
     puts "ACEY-DUCEY IS PLAYED IN THE FOLLOWING MANNER"
     puts "THE DEALER (COMPUTER) DEALS TWO CARDS FACE UP"

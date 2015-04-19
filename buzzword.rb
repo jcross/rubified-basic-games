@@ -19,7 +19,8 @@ module Buzzword
     puts "BUZZWORD GENERATOR".center(80)
     puts "CREATIVE COMPUTING  MORRISTOWN, NEW JERSEY".center(80)
     puts "TRANSLATED TO RUBY".center(80)
-    puts "BY JAMES CROSS (http://github.com/jcross/)\n\n\n".center(80)
+    puts "BY JAMES CROSS (http://github.com/jcross/)".center(80)
+    puts "\n\n\n"
 
     puts "THIS PROGRAM PRINTS HIGHLY ACCEPTABLE PHRASES IN"
     puts "'EDUCATOR-SPEAK' THAT YOU CAN WORK INTO REPORTS"

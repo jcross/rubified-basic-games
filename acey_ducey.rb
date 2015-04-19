@@ -13,7 +13,8 @@ module AceyDucey
     puts "ACEY DUCEY CARD GAME".center(80)
     puts "CREATIVE COMPUTING  MORRISTOWN, NEW JERSEY".center(80)
     puts "TRANSLATED TO RUBY".center(80)
-    puts "BY JAMES CROSS (http://github.com/jcross/)\n\n\n".center(80)
+    puts "BY JAMES CROSS (http://github.com/jcross/)".center(80)
+    puts "\n\n\n"
 
     puts "ACEY-DUCEY IS PLAYED IN THE FOLLOWING MANNER"
     puts "THE DEALER (COMPUTER) DEALS TWO CARDS FACE UP"

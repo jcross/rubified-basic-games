@@ -10,6 +10,7 @@ then bets on whether or not a third card will have a value between the first
 two.
 - Buzzword - An educational buzzword generator.
 - Hello - A simple advice-giving conversational program.
+- Name - A simple name-mangling conversational program.
 
 ## Attribution
 See the comments at the head of each individual game's file for details on the 
